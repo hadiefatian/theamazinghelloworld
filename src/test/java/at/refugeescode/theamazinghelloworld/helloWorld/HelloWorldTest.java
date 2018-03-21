@@ -18,7 +18,6 @@ class HelloWorldTest {
 
     @Test
     void sayHelloWorld() {
-
         String message = helloWorld.sayHelloWorld();
         Assertions.assertEquals("Hello World", message);
     }
